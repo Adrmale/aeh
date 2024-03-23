@@ -64,7 +64,28 @@ public class master {
         //   System.out.println(j);
         //   j++;
         // }while (j <= 5);
+
+    //   enum Colors {
+    //     RED,
+    //     GREEN,
+    //     BLUE
+    //   } 
+    //   Colors myFavouriteColor = Colors.GREEN;
+    //   System.out.println(myFavouriteColor);
+     
+    int[] integerNumber = new int[5];
+    integerNumber[0] = 11;
+    integerNumber[1] = 20;
+    integerNumber[2] = 30;
+    integerNumber[3] = 40;
+    integerNumber[4] = 50;
+  String[] strings = {"A" , "B", "C"};
+
+  System.out.println("Element 1: " + strings[1]);
+  System.out.println("Element 2: " + integerNumber[0]);
+  System.out.println("Element 3: " + integerNumber[integerNumber.length - 2]);
     }
+
   }
 
  
